@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="public\icons\icon_nav.svg" />
+    <title>Climabet & Robson</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: linear-gradient(135deg, #182540, #233559, #3dd9bc);
+        color: #f0f2f2;
+        font-family: "Arial", sans-serif;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .gif-container img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+
+      h1 {
+        font-size: 24px;
+        margin: 20px 0;
+        color: #f0f2f2;
+      }
+
+      .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #d94e73;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 18px;
+        transition: background-color 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: #3dd9bc;
+        color: #182540;
+      }
+      .disabled-link {
+        pointer-events: none; /* Desabilita o clique */
+        background-color: #ccc; /* Muda a cor para indicar que está desabilitado */
+        color: white; /* Muda a cor para indicar que está desabilitado */
+        text-decoration: none; /* Remove o sublinhado */
+        cursor: not-allowed; /* Muda o cursor para indicar que está desabilitado */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="gif-container">
+        <img
+          src="https://64.media.tumblr.com/dbed67a8d25efb0532c4ca9c9d8692d3/1a31f30c6d3dee43-f6/s540x810/540df7e2b2a04820f12e80376b48ac7248983b29.gifv"
+          alt="GIF centralizado"
+        />
+      </div>
+      <h1>Não sufoque o artista, projetos em andamento!</h1>
+      <a href="/robson" class="btn">Robson</a>
+      <a href="/#" class="btn disabled-link">Climabet</a>
+    </div>
+  </body>
+</html>
